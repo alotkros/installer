@@ -16,8 +16,6 @@ struct Error {
 
 enum class ParsingErrorType {
     NotEnoughArguments,
-    InvalidSourceDirectory,
-    SourceFileNotFound,
 };
 
 using ParsingError = Error<ParsingErrorType>;
