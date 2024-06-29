@@ -4,13 +4,10 @@
 #include "Transaction/Resources/InstalledDirectory.h"
 #include "Transaction/Resources/InstalledFile.h"
 #include "Validations/FileValidations.h"
-#include <corecrt.h>
 #include <exception>
 #include <format>
 #include <iostream>
 #include <shlwapi.h>
-#include <stdexcept>
-#include <stdlib.h>
 #include <windows.h>
 
 std::expected<void, InstallationError>
